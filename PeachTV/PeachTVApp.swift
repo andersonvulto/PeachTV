@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+let images = Images()
 @main
+
 struct PeachTVApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(images)
         }
     }
 }
