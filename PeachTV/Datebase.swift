@@ -23,19 +23,22 @@ class Images: ObservableObject {
                                                    title: "Felca la creatura",
                                                    genre: "Animação",
                                                    classificacao: "10",
-                                                   sinopse: "Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. "),
+                                                   sinopse: "Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. ",
+                                                   video:"felca"),
                                          
                                          MidiaData(imageRef: "raluca",
                                                    title: "Putz, Raluca",
                                                    genre: "Drama",
                                                    classificacao: "12",
-                                                   sinopse: ""),
+                                                   sinopse: "buydcfgyadsginfucgsuyfbciasndfudagsucfdmks roiofierhgeir roefjirejgoirejg eigjoerigoiergiogf",
+                                                   video:"raluca"),
                                          
                                          MidiaData(imageRef: "bigblue",
                                                    title: "Bluezão 2",
                                                    genre: "Ação",
                                                    classificacao: "16",
-                                                   sinopse: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus."),
+                                                   sinopse: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus.",
+                                                   video: "bluezao"),
                                          
                                          MidiaData(imageRef: "zoio",
                                                    title: "Aventuras de Zoio",
@@ -76,17 +79,13 @@ class Images: ObservableObject {
                                                    title: "Atividade normal",
                                                    genre: "Terror",
                                                    classificacao: "16",
-                                                   sinopse: "Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. A diam sollicitudin tempor id eu. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan.",
-                                                   video: "14",
-                                                   ext:"mp4"),
+                                                   sinopse: "Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. A diam sollicitudin tempor id eu. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan."),
                                          
                                          MidiaData(imageRef: "seila",
                                                    title: "O retorno de quem já esteve aqui",
                                                    genre: "Indie",
                                                    classificacao: "10",
-                                                   sinopse: "Ultricies tristique nulla aliquet enim tortor at auctor urna. Faucibus purus in massa tempor nec. Nec dui nunc mattis enim ut tellus elementum sagittis.",
-                                                   video:"15",
-                                                   ext:"mp4")]
+                                                   sinopse: "Ultricies tristique nulla aliquet enim tortor at auctor urna. Faucibus purus in massa tempor nec. Nec dui nunc mattis enim ut tellus elementum sagittis.")]
 
 }
 
