@@ -10,10 +10,10 @@ import SwiftUI
 struct Tabbar: View {
     var body: some View {
         TabView {
-//            Assistir_agora()
-//                .tabItem {
-//                    Label("Assitir Agora", systemImage: "play.circle.fill")
-//                }
+            AssistirAgora()
+                .tabItem {
+                    Label("Assitir Agora", systemImage: "play.circle.fill")
+                }
 //            Originals()
 //                .tabItem {
 //                    Label("Originals", systemImage: "rectangle.fill")

@@ -14,7 +14,7 @@ struct PeachTVApp: App {
     var body: some Scene {
         WindowGroup {
             //ScrollHorizontal(title: "Exemplo", top10is: true, subtitleis: false, sinopseis:true)
-            Banner()
+            Tabbar()
                 .environmentObject(images)
         }
         

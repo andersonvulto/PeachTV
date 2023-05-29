@@ -38,15 +38,16 @@ struct ScrollHorizontal: View {
                 } label: {
                     HStack {
                         Text(title)
-                            .font(.largeTitle)
+                            .font(.title2)
                             .foregroundColor(Color.white)
                             .bold()
                         Image(systemName: "chevron.forward")
-                            .font(.title)
+                            .font(.title2)
                             .foregroundColor(.gray)
                         
                         Spacer()
                     }
+                    .padding(.top)
                 }
                 .padding(.horizontal)
                 .padding(.bottom,1)
@@ -79,7 +80,7 @@ struct ScrollHorizontal: View {
                                     HStack {
                                         Text("\(index + 1)")
                                             .foregroundColor(.gray)
-                                            .font(.largeTitle)
+                                            .font(.title)
                                             .bold()
                                         VStack {
                                             HStack {
@@ -134,7 +135,7 @@ struct ScrollHorizontal: View {
             }
             .background(
                 Rectangle()
-                    .fill(Gradient(colors: [.black,Color(red: 0.2, green: 0.2, blue: 0.2)]))
+                    .fill(Gradient(colors: [.black,Color(red: 0.1, green: 0.1, blue: 0.1)]))
             )
         
     }
