@@ -17,7 +17,7 @@ struct Banner: View {
     
     var body: some View {
         TabView(selection: $currentPageIndex) {
-            ForEach(images.images.count - 2 ..< images.images.count,id: \.self) { index in
+            ForEach(0 ..< 3) { index in
                 Card(title:images.images[index].title,sinops:images.images[index].sinopse,indic:images.images[index].classificacao, imagem: images.images[index].imageRef,video: images.images[index].video)
             }
         }
@@ -49,39 +49,52 @@ struct Card: View {
                         Spacer()
                         Text (title)
                             .font(.largeTitle)
+                            .foregroundColor(Color.white)
                         VStack {
                             Label("classificação: \(indic)", systemImage:"exclamationmark.triangle" )
+                                .foregroundColor(Color.white)
                             HStack {
                                 Spacer()
                                 Text(sinops)
                                     .multilineTextAlignment(.center)
+                                    .padding(.horizontal)
                                     .padding(.bottom,40)
-                               Spacer()
-                            }
-                        }
-                    }
-                }
-            } else {
-                ZStack {
-                    VideoPlayer(player: playerManager.player!)
-                        .disabled(true)
-                    VStack {
-                        Spacer()
-                        Text (title)
-                            .font(.largeTitle)
-                        VStack {
-                            Label("classificação: \(indic)", systemImage:"exclamationmark.triangle" )
-                            HStack {
-                                Spacer()
-                                Text(sinops)
-                                    .multilineTextAlignment(.center)
-                                    .padding(.bottom,40)
+                                    .foregroundColor(Color.white)
                                Spacer()
                             }
                         }
                         .background(
                             Rectangle()
                                 .fill(Material.ultraThick.opacity(0.05))
+                        )
+                    }
+                }
+            } else {
+                ZStack {
+                        VideoPlayer(player: playerManager.player!)
+                            .disabled(true)
+                            
+                    VStack {
+                        Spacer()
+                        Text (title)
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                        VStack {
+                            Label("classificação: \(indic)", systemImage:"exclamationmark.triangle" )
+                                .foregroundColor(Color.white)
+                            HStack {
+                                Spacer()
+                                Text(sinops)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.horizontal)
+                                    .padding(.bottom,40)
+                                    .foregroundColor(Color.white)
+                               Spacer()
+                            }
+                        }
+                        .background(
+                            Rectangle()
+                                .fill(Material.ultraThick.opacity(0.1))
                         )
 
                     }

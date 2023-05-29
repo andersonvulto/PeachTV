@@ -31,9 +31,9 @@ struct Tabbar: View {
 //                    Label("Buscar", systemImage: "magnifyingglass")
 //                }
 //            
-//        }
-//    }
-//}
+        }
+    }
+}
 
 struct Tab_Previews: PreviewProvider {
     static var previews: some View {
