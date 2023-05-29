@@ -30,7 +30,7 @@ struct Buscar: View {
                 LazyVGrid(columns: layout, spacing: 8) {
                     ForEach(category.images, id: \.self) {item in
                         NavigationLink {
-                            Category(item: item.title)
+                            Category(item: item.genre)
                         } label: {
                             ZStack {
                                 Image(item.imageRef) //imagem

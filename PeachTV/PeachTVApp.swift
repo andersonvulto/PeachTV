@@ -13,8 +13,10 @@ let images = Images()
 struct PeachTVApp: App {
     var body: some Scene {
         WindowGroup {
-            Buscar()
-                .environmentObject(images)
+            NavigationView {
+                Tabbar()
+                    .environmentObject(images)
+            }
         }
         
     }
