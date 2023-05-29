@@ -18,6 +18,5 @@ struct PeachTVApp: App {
                     .environmentObject(images)
             }
         }
-        
     }
 }

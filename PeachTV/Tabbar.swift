@@ -14,6 +14,10 @@ struct Tabbar: View {
                 .tabItem {
                     Label("Buscar", systemImage: "magnifyingglass")
                 }
+            SomeView()
+                .tabItem {
+                    Label("category", systemImage: "chevron.right")
+                }
         }
     }
 }

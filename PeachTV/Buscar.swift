@@ -63,13 +63,13 @@ struct Buscar: View {
                     
                 }
                 
-                .navigationBarTitleDisplayMode(.large)
                 
-                .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
-                .navigationTitle("Buscar")
                 
             }
             .padding(.horizontal)
+            .navigationBarTitleDisplayMode(.large)
+            .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
+            .navigationTitle("Buscar")
             
         }
         
