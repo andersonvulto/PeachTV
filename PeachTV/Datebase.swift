@@ -13,7 +13,6 @@ struct MidiaData: Hashable {
     var genre: String
     var classificacao: Int
     var sinopse: String
-    var justTesting = "WTF?"
 }
 
 class Images: ObservableObject {
