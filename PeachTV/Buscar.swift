@@ -29,7 +29,7 @@ struct Buscar: View {
             LazyVGrid(columns: layout, spacing: 8) {
                 ForEach(category.images, id: \.self) {item in
                     NavigationLink {
-                        
+                        Category(item: item.title)
                     } label: {
                         ZStack {
                             Image(item.imageRef) //imagem
@@ -68,5 +68,13 @@ struct Buscar: View {
         .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
         .navigationTitle("Buscar")
         .navigationBarTitleDisplayMode(.large)
+    }
+}
+
+
+struct Category: View {
+    let item: String
+    var body: some View {
+        Text(item)
     }
 }

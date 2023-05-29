@@ -14,34 +14,6 @@ struct Tabbar: View {
                 .tabItem {
                     Label("Buscar", systemImage: "magnifyingglass")
                 }
-            
-            
         }
-        
-        
-        //            Assistir_agora()
-        //                .tabItem {
-        //                    Label("Assitir Agora", systemImage: "play.circle.fill")
-        //                }
-        //            Originals()
-        //                .tabItem {
-        //                    Label("Originals", systemImage: "rectangle.fill")
-        //                }
-        //            Loja()
-        //                .tabItem {
-        //                    Label("Loja", systemImage: "bag.fill")
-        //                }
-        //            Biblioteca()
-        //                .tabItem {
-        //                    Label("Biblioteca", systemImage: "square.stack.fill")
-        //                }
-        //            Buscar()
-        //                .tabItem {
-        //                    Label("Buscar", systemImage: "magnifyingglass")
-        //                }
-        //
-        //        }
-        //    }
-        //}
     }
 }
