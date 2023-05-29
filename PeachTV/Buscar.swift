@@ -62,14 +62,16 @@ struct Buscar: View {
                     }
                     
                 }
-                
+                .navigationTitle("Buscar")
+                .navigationBarTitleDisplayMode(.large)
+                .padding(.horizontal)
+                .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
                 
             }
-            .padding(.horizontal)
-            .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
-            .navigationTitle("Buscar")
-            .navigationBarTitleDisplayMode(.large)
+            
+            
         }
+        
         }
         
 }
@@ -80,6 +82,27 @@ struct Category: View {
     let genre: String
     let image: String
     var body: some View {
-        Text(item.genre)
+        
+        ScrollView {
+            VStack {
+                ZStack {
+                    Image(image)
+                        .resizable()
+                        .scaledToFit()
+                    Image(image)
+                        .renderingMode(.template)
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundColor(.black.opacity(0.3))
+                    Text(genre)
+                        .font(.title.bold())
+                        .foregroundColor(.white)
+                }
+                //ScrollHorizontal()
+            }
+            
+        }
+        .navigationTitle(genre)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
