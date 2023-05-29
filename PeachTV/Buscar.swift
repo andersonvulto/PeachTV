@@ -1,0 +1,72 @@
+//
+//  ContentView.swift
+//  PearTV
+//
+//  Created by Fabrizio Narciso on 22/05/23.
+//
+
+import SwiftUI
+
+struct Buscar: View {
+    
+    @State var text = ""
+    
+    @EnvironmentObject var category: Images
+    
+    let layout = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ] //how many columns do I want (each GridItem is a column in this case)
+    
+    var body: some View {
+        ScrollView {
+            HStack {
+                Text("Explore")
+                    .font(.title2.bold())
+                Spacer()
+            }.padding(.top)
+            
+            LazyVGrid(columns: layout, spacing: 8) {
+                ForEach(category.images, id: \.self) {item in
+                    NavigationLink {
+                        
+                    } label: {
+                        ZStack {
+                            Image(item.imageRef) //imagem
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(10)
+                            
+                            Image(item.imageRef) //overlay escuro
+                                .renderingMode(.template)
+                                .resizable()
+                                .scaledToFit()
+                                .cornerRadius(10)
+                                .foregroundColor(.black.opacity(0.25))
+                            
+                            VStack {
+                                Spacer()
+                                HStack {
+                                    Text(item.genre) //título da seção
+                                        .font(.title3.bold())
+                                        .foregroundColor(.white)
+                                        .padding(.leading, 8)
+                                    Spacer()
+                                }
+                                .padding(.bottom, 8)
+                            }
+                        }
+                        
+                    }
+                }
+                
+            }
+            
+            
+        }
+        .padding(.horizontal)
+        .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Programas, Filmes e Mais")
+        .navigationTitle("Buscar")
+        .navigationBarTitleDisplayMode(.large)
+    }
+}
