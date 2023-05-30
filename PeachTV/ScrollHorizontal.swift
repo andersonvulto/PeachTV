@@ -49,7 +49,7 @@ struct ScrollHorizontal: View {
                         
                         Spacer()
                     }
-                    //.padding(.top)
+
                 }
                 .padding(.horizontal)
                 
@@ -68,17 +68,15 @@ struct ScrollHorizontal: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     
-//                    HStack {
+
                     LazyHGrid(rows: rows, spacing: 8) {
-                        ForEach(0 ..< item.images.count,id: \.self) { index in
+                        ForEach(0..<item.images.count,id: \.self) { index in
                             VStack {
                                 
                                 NavigationLink {
                                     //filme
                                 } label: {
                                     Unit(image: item.images[index].imageRef)
-                                    //.frame(width: 170,height: 90)
-                                    //.padding(.leading,0)
                                 }
                                 //.padding(.horizontal)
                                 
@@ -132,8 +130,6 @@ struct ScrollHorizontal: View {
                             }
                         }
                         //.padding(.leading)
-                        .frame(width: 160000/UIScreen.main.bounds.width,
-                                height: 90000/UIScreen.main.bounds.height)
                     }
                     
                     .padding(.leading)
