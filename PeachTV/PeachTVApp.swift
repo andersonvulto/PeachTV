@@ -27,6 +27,7 @@ struct PeachTVApp: App {
                         Label("category", systemImage: "chevron.right")
                     }
             }.environmentObject(images)
+                .preferredColorScheme(.dark)
         }
     }
 }

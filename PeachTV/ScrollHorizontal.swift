@@ -15,6 +15,7 @@ struct Unit: View {
     var body: some View {
         Image(image)
             .resizable()
+            .scaledToFit()
             .cornerRadius(10)
     }
 }
@@ -43,14 +44,15 @@ struct ScrollHorizontal: View {
                             .bold()
                         Image(systemName: "chevron.forward")
                             .font(.title2)
+                            .bold()
                             .foregroundColor(.gray)
                         
                         Spacer()
                     }
-                    .padding(.top)
+                    //.padding(.top)
                 }
                 .padding(.horizontal)
-                .padding(.bottom,1)
+                
                 
                 if subtitleis == true {
                     HStack {
@@ -61,10 +63,13 @@ struct ScrollHorizontal: View {
                     .padding(.horizontal)
                 }
                 
+                let rows = [GridItem(.flexible())]
+                
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     
-                    HStack {
+//                    HStack {
+                    LazyHGrid(rows: rows, spacing: 8) {
                         ForEach(0 ..< item.images.count,id: \.self) { index in
                             VStack {
                                 
@@ -72,7 +77,8 @@ struct ScrollHorizontal: View {
                                     //filme
                                 } label: {
                                     Unit(image: item.images[index].imageRef)
-                                        .frame(width: 180,height: 100)
+                                    //.frame(width: 170,height: 90)
+                                    //.padding(.leading,0)
                                 }
                                 //.padding(.horizontal)
                                 
@@ -120,22 +126,27 @@ struct ScrollHorizontal: View {
                                             Spacer()
                                         }
                                     }
-                                    .frame(width: 180,height: 100)
+                                    //.frame(width: 170,height: 90)
                                     //.padding(.horizontal)
                                 }
                             }
                         }
+                        //.padding(.leading)
+                        .frame(width: 160000/UIScreen.main.bounds.width,
+                                height: 90000/UIScreen.main.bounds.height)
                     }
+                    
+                    .padding(.leading)
                     
                 }
                 
-                .padding(.leading)
-                .padding(.bottom)
+                //.padding(.leading)
+                .padding(.bottom,24)
                 
             }
             .background(
                 Rectangle()
-                    .fill(Gradient(colors: [.black,Color(red: 0.1, green: 0.1, blue: 0.1)]))
+                    .fill(Gradient(colors: [.black.opacity(0), Color(red: 0.9, green: 0.9, blue: 0.9).opacity(0.1)]))
             )
         
     }

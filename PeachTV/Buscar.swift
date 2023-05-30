@@ -96,10 +96,14 @@ struct Category: View {
                         .scaledToFit()
                         .foregroundColor(.black.opacity(0.3))
                     Text(genre)
-                        .font(.title.bold())
+                        .font(.largeTitle.bold())
                         .foregroundColor(.white)
                 }
-                //ScrollHorizontal()
+                ScrollHorizontal(title: "Lançamentos", top10is: false, subtitleis: true, sinopseis: false)
+                ScrollHorizontal(title: "Séries de "+genre, top10is: false, subtitleis: true, sinopseis: false)
+                ScrollHorizontal(title: "Filmes de "+genre, top10is: false, subtitleis: true, sinopseis: false)
+                ScrollHorizontal(title: genre+" Nacional", top10is: false, subtitleis: true, sinopseis: false)
+
             }
             
         }
