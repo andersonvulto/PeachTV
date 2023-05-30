@@ -53,7 +53,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h4",
                                                    VimageRef: "v4",
-                                                   title: "Aventuras de Zoio",
+                                                   title: "Ciano",
                                                    genre: "Aventura",
                                                    classificacao: "12",
                                                    sinopse: "Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Quis lectus nulla at volutpat diam ut venenatis tellus in.",
@@ -63,7 +63,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h5",
                                                    VimageRef: "v5",
-                                                   title: "Caneta azul, azul caneta",
+                                                   title: "Azul",
                                                    genre: "Comédia", classificacao: "6",
                                                    sinopse: "Porttitor leo a diam sollicitudin tempor id eu. Metus dictum at tempor commodo ullamcorper a lacus vestibulum.",
                                                    video: "vv5",
@@ -72,7 +72,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h6",
                                                    VimageRef: "v6",
-                                                   title: "Economizando a vida",
+                                                   title: "Rosa",
                                                    genre: "Documentário",
                                                    classificacao: "14",
                                                    sinopse: "Venenatis urna cursus eget nunc scelerisque viverra mauris.",
@@ -111,7 +111,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h4",
                                                    VimageRef: "v4",
-                                                   title: "Aventuras de Zoio",
+                                                   title: "Ciano",
                                                    genre: "Aventura",
                                                    classificacao: "12",
                                                    sinopse: "Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Quis lectus nulla at volutpat diam ut venenatis tellus in.",
@@ -121,7 +121,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h5",
                                                    VimageRef: "v5",
-                                                   title: "Caneta azul, azul caneta",
+                                                   title: "Azul",
                                                    genre: "Comédia", classificacao: "6",
                                                    sinopse: "Porttitor leo a diam sollicitudin tempor id eu. Metus dictum at tempor commodo ullamcorper a lacus vestibulum.",
                                                    video: "vv5",
@@ -130,7 +130,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h6",
                                                    VimageRef: "v6",
-                                                   title: "Economizando a vida",
+                                                   title: "Rosa",
                                                    genre: "Documentário",
                                                    classificacao: "14",
                                                    sinopse: "Venenatis urna cursus eget nunc scelerisque viverra mauris.",
@@ -169,7 +169,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h4",
                                                    VimageRef: "v4",
-                                                   title: "Aventuras de Zoio",
+                                                   title: "Ciano",
                                                    genre: "Aventura",
                                                    classificacao: "12",
                                                    sinopse: "Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Quis lectus nulla at volutpat diam ut venenatis tellus in.",
@@ -179,7 +179,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h5",
                                                    VimageRef: "v5",
-                                                   title: "Caneta azul, azul caneta",
+                                                   title: "Azul",
                                                    genre: "Comédia", classificacao: "6",
                                                    sinopse: "Porttitor leo a diam sollicitudin tempor id eu. Metus dictum at tempor commodo ullamcorper a lacus vestibulum.",
                                                    video: "vv5",
@@ -188,7 +188,7 @@ class Images: ObservableObject {
                                          
                                          MidiaData(HimageRef: "h6",
                                                    VimageRef: "v6",
-                                                   title: "Economizando a vida",
+                                                   title: "Rosa",
                                                    genre: "Documentário",
                                                    classificacao: "14",
                                                    sinopse: "Venenatis urna cursus eget nunc scelerisque viverra mauris.",
