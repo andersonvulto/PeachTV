@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265E13492A262E4D007FAAF2 /* vv1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13452A262E45007FAAF2 /* vv1.mp4 */; };
+		265E134A2A262E51007FAAF2 /* vv2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13432A262E44007FAAF2 /* vv2.mp4 */; };
+		265E134B2A262E54007FAAF2 /* vv3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13462A262E45007FAAF2 /* vv3.mp4 */; };
+		265E134C2A262E56007FAAF2 /* vv4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13442A262E45007FAAF2 /* vv4.mp4 */; };
+		265E134D2A262E58007FAAF2 /* vv5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13482A262E46007FAAF2 /* vv5.mp4 */; };
+		265E134E2A262E5B007FAAF2 /* vv6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 265E13472A262E46007FAAF2 /* vv6.mp4 */; };
 		26832EB22A24CE7A004B66C3 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EB12A24CE7A004B66C3 /* Banner.swift */; };
 		26832EB42A24CE84004B66C3 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EB32A24CE84004B66C3 /* PlayerManager.swift */; };
 		26832EBA2A24D7D8004B66C3 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EB92A24D7D8004B66C3 /* Tabbar.swift */; };
 		26832EBC2A24D870004B66C3 /* MidiaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EBB2A24D870004B66C3 /* MidiaPlayer.swift */; };
 		26832EBE2A24DA8A004B66C3 /* ScrollHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EBD2A24DA8A004B66C3 /* ScrollHorizontal.swift */; };
+<<<<<<< HEAD
 		26832EC22A24E728004B66C3 /* bluezao.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 26832EBF2A24E71A004B66C3 /* bluezao.mp4 */; };
 		26832EC32A24E729004B66C3 /* felca.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 26832EC12A24E71B004B66C3 /* felca.mp4 */; };
 		26832EC42A24E72D004B66C3 /* raluca.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 26832EC02A24E71A004B66C3 /* raluca.mp4 */; };
 		26832EC62A24EF9C004B66C3 /* AssistirAgora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26832EC52A24EF9C004B66C3 /* AssistirAgora.swift */; };
 		A397DCB52A24DA7C0058A4EE /* Buscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A397DCB42A24DA7C0058A4EE /* Buscar.swift */; };
 		A39ABEA02A24EE70009554AA /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39ABE9F2A24EE70009554AA /* SomeView.swift */; };
+=======
+>>>>>>> develop
 		A3BE00512A24C64D00BA2F71 /* PeachTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE00502A24C64D00BA2F71 /* PeachTVApp.swift */; };
 		A3BE00532A24C64D00BA2F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE00522A24C64D00BA2F71 /* ContentView.swift */; };
 		A3BE00552A24C64D00BA2F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BE00542A24C64D00BA2F71 /* Assets.xcassets */; };
@@ -26,17 +35,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265E13432A262E44007FAAF2 /* vv2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv2.mp4; sourceTree = "<group>"; };
+		265E13442A262E45007FAAF2 /* vv4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv4.mp4; sourceTree = "<group>"; };
+		265E13452A262E45007FAAF2 /* vv1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv1.mp4; sourceTree = "<group>"; };
+		265E13462A262E45007FAAF2 /* vv3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv3.mp4; sourceTree = "<group>"; };
+		265E13472A262E46007FAAF2 /* vv6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv6.mp4; sourceTree = "<group>"; };
+		265E13482A262E46007FAAF2 /* vv5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vv5.mp4; sourceTree = "<group>"; };
 		26832EB12A24CE7A004B66C3 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		26832EB32A24CE84004B66C3 /* PlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		26832EB92A24D7D8004B66C3 /* Tabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		26832EBB2A24D870004B66C3 /* MidiaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiaPlayer.swift; sourceTree = "<group>"; };
 		26832EBD2A24DA8A004B66C3 /* ScrollHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollHorizontal.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		26832EBF2A24E71A004B66C3 /* bluezao.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluezao.mp4; sourceTree = "<group>"; };
 		26832EC02A24E71A004B66C3 /* raluca.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = raluca.mp4; sourceTree = "<group>"; };
 		26832EC12A24E71B004B66C3 /* felca.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = felca.mp4; sourceTree = "<group>"; };
 		26832EC52A24EF9C004B66C3 /* AssistirAgora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistirAgora.swift; sourceTree = "<group>"; };
 		A397DCB42A24DA7C0058A4EE /* Buscar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buscar.swift; sourceTree = "<group>"; };
 		A39ABE9F2A24EE70009554AA /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> develop
 		A3BE004D2A24C64D00BA2F71 /* PeachTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeachTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BE00502A24C64D00BA2F71 /* PeachTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachTVApp.swift; sourceTree = "<group>"; };
 		A3BE00522A24C64D00BA2F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,9 +113,12 @@
 		A3BE00562A24C64D00BA2F71 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				26832EBF2A24E71A004B66C3 /* bluezao.mp4 */,
-				26832EC12A24E71B004B66C3 /* felca.mp4 */,
-				26832EC02A24E71A004B66C3 /* raluca.mp4 */,
+				265E13452A262E45007FAAF2 /* vv1.mp4 */,
+				265E13432A262E44007FAAF2 /* vv2.mp4 */,
+				265E13462A262E45007FAAF2 /* vv3.mp4 */,
+				265E13442A262E45007FAAF2 /* vv4.mp4 */,
+				265E13482A262E46007FAAF2 /* vv5.mp4 */,
+				265E13472A262E46007FAAF2 /* vv6.mp4 */,
 				A3BE00572A24C64D00BA2F71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -161,11 +182,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26832EC32A24E729004B66C3 /* felca.mp4 in Resources */,
+				265E134D2A262E58007FAAF2 /* vv5.mp4 in Resources */,
 				A3BE00582A24C64D00BA2F71 /* Preview Assets.xcassets in Resources */,
 				A3BE00552A24C64D00BA2F71 /* Assets.xcassets in Resources */,
-				26832EC42A24E72D004B66C3 /* raluca.mp4 in Resources */,
-				26832EC22A24E728004B66C3 /* bluezao.mp4 in Resources */,
+				265E13492A262E4D007FAAF2 /* vv1.mp4 in Resources */,
+				265E134A2A262E51007FAAF2 /* vv2.mp4 in Resources */,
+				265E134B2A262E54007FAAF2 /* vv3.mp4 in Resources */,
+				265E134C2A262E56007FAAF2 /* vv4.mp4 in Resources */,
+				265E134E2A262E5B007FAAF2 /* vv6.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
